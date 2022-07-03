@@ -1,3 +1,5 @@
+'use strict';
+
 const num1 = Number(prompt("Please enter the first number"));
 const num2 = Number(prompt("Please enter the second number"));
 const action = prompt("Please choose type of math operation: \n '+' for sum, \n '-' for subtract, \n '*' for multiply, \n ':' or '/' for divide");
@@ -48,5 +50,5 @@ else if (action === '/') {
 }
 
 else {
-    alert('Wrong info were submitted. Please try again!')
+    alert('Wrong info were submitted. Please try again!');
 }
